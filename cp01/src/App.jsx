@@ -24,7 +24,7 @@ function App() {
       
       <div className="grid-100 list-card grid-parent">
         <div className="grid-100">
-          <h2 className='subtitle'>Cores Favoritas</h2>
+          <h2 className='subtitle-1'>Cores Favoritas</h2>
         </div>
 
         {cores.map((card, index)=>{
@@ -33,8 +33,6 @@ function App() {
           );
         })}
       </div>
-
-          <span className='dark-mode'>Modo Dark</span>
       
     </div>
   );
